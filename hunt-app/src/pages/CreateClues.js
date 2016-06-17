@@ -179,7 +179,7 @@ export default class CreateClues extends Component {
               Track Your Clues
             </div>
             <div className="row">
-              <div id="cluebox" className={"col m8"}> </div>
+              <div id="cluebox" className={"col m9"}> </div>
               <div id="answerbox" className={"col m3"}> </div>
             </div>
           </div>

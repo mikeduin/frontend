@@ -102,7 +102,6 @@ export default class ReviewHunt extends React.Component {
                 <Card className='large'
                   header={<CardTitle image='/css/yourmap.png'>{this.state.name}</CardTitle>} // insert map picture here
                   actions={[<a href='#'>Edit Clues and Locations</a>]}>
-
                 </Card>
               </Then>
             </If>
@@ -111,11 +110,11 @@ export default class ReviewHunt extends React.Component {
                 <Card className='large'
                   header={<CardTitle image='/css/party2.jpeg'>{this.state.name}</CardTitle>} // insert map picture here
                   actions={[<a href='#'>Edit Invites</a>]}>
-                  <div>Date: {this.state.data[0].date} </div>
-                  <div>Starting Time: {this.state.data[0].start_time} </div>
-                  <div>Ending Time: {this.state.data[0].end_time} </div>
-                  <div>General Location: {this.state.data[0].location} </div>
-                  <div>Description: {this.state.data[0].description} </div>
+                  <div> <h6> Sean Stokke </h6> </div>
+                  <div> <h6> Morgen Fett </h6> </div>
+                  <div> <h6> Mike Duin </h6> </div>
+                  <div> <h6> Jenni Bradstreet </h6> </div>
+                  <div> <h6> Dustin Wurtz </h6> </div>
                 </Card>
               </Then>
             </If>
