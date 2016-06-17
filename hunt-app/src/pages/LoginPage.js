@@ -59,6 +59,7 @@ export default class LoginPage extends React.Component {
             </Card>
           </Col>
         </Row>
+      </Row>
       );
     }
 }
